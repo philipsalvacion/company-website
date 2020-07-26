@@ -1,0 +1,32 @@
+.page-header {
+	min-height: 100vh;
+	max-height: 999px;
+	padding: 0;
+	color: #000;
+	position: relative;
+	overflow: hidden;
+}
+.page-header .container {
+	height: 100%;
+	z-index: 1;
+	text-align: center;
+	position: relative;
+}
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+div {
+	display: block;
+}
+.h1-seo {
+	font-size: 2.8em;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.justify-left {
+
+}

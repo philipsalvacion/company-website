@@ -1,0 +1,12 @@
+{
+	"main": {
+		"NavLinks": [
+			{
+				"Text": "Career"
+			},
+			{
+				"Text": "About Us"
+			}
+		]
+	}
+}
