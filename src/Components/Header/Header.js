@@ -33,12 +33,12 @@ class Header extends React.Component {
 						<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
 						<h1 class="h1-seo">Coffee Shop</h1>
 							<h3>
-								A coffee shop sample design using React JS and Boostrap 4!
+								A coffee shop sample design using React JS and Bootstrap 4!
 							</h3>
 					</div>
 				</div>
 				<div className="center-text">
-					<h6>Designed and Coded by <Code size={30} style={{fontWeight: "150%"}} /> Philip Salvacion</h6>	
+					<h6>Designed and Coded by <Code size={30} style={{fontWeight: "150%"}} /> Philip Salvacion</h6>
 				</div>
 			</div>
 		);
