@@ -3,6 +3,7 @@ import React from 'react';
 import './Header.css';
 import CoffeeLogo from '../../Assets/coffee-logo.png';
 
+import { Code } from 'react-bootstrap-icons';
 // const background = {
 // 	background: "linear-gradient(to bottom, rgba(33, 37, 41, 0.5) 0%, rgba(33, 37, 41, 0.5) 100%)",
 // 	backgroundSize: "cover",
@@ -35,6 +36,9 @@ class Header extends React.Component {
 								A coffee shop sample design using React JS and Boostrap 4!
 							</h3>
 					</div>
+				</div>
+				<div className="center-text">
+					<h6>Designed and Coded by <Code size={30} style={{fontWeight: "150%"}} /> Philip Salvacion</h6>	
 				</div>
 			</div>
 		);

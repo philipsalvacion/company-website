@@ -7,10 +7,6 @@
 .margin-bottom {
 	margin-bottom: 1%;
 }
-.justify-text {
-	display: flex;
-  align-items: baseline;
-}
 .montserrat-light {
 	font-family: 'Montserrat';
 	font-weight: 200;
@@ -22,4 +18,27 @@
 .montserrat-bold {
 	font-family: 'Montserrat';
 	font-weight: 700;
+}
+.squareImg {
+	height: 130px;
+	width: auto;
+	border-radius: 100px;
+}
+.justify-text {
+	display: flex;
+  align-items: baseline;
+	text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+  .justify-text {
+		display: inline-block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .owner {
+    text-align: center;
+		display: inline-block;
+		margin-top: 4%;
+  }
 }
