@@ -10,3 +10,6 @@
 	font-family: 'Montserrat';
 	font-weight: 700;
 }
+Navbar {
+	background-color: transparent !important;
+}

@@ -52,7 +52,7 @@ class About extends React.Component {
 						</Col>
 					</Row>
 					<Row xs="12">
-						<Col sm="12" className="justify-text" style={{padding: "0% 10% 0%", marginBottom: "3%"}}>
+						<Col sm="12" className="justify-text" style={{padding: "0% 10% 0%", marginBottom: "3%", textAlign: "center"}}>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta, mauris eget rutrum porttitor, nibh diam aliquam nibh, a pellentesque eros nibh ut turpis. Maecenas eget sagittis sem. Fusce mauris arcu, lacinia sit amet malesuada id, laoreet vel diam. Suspendisse sit amet sapien ante. Maecenas ullamcorper nunc augue, in efficitur mauris volutpat id.
 							</p>
@@ -161,6 +161,7 @@ class About extends React.Component {
 							</Row>
 						</Col>
 					</Row>
+					<hr />
 				</Container>
 			</div>
 		);
