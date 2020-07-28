@@ -10,6 +10,9 @@ import {
 	NavbarText
 } from 'reactstrap';
 
+// Custom css
+import '../../Assets/CSS/colorPalette.css';
+
 const MainNavbar = (props) => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -18,7 +21,7 @@ const MainNavbar = (props) => {
 	return (
 		<div>
 			<Navbar color="light" light expand="md">
-				<NavbarBrand href="/">Coffee Shop</NavbarBrand>
+				<NavbarBrand className="montserrat-bold" href="/"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></NavbarBrand>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="mr-auto navbar-transparent" navbar pills>
