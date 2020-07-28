@@ -29,7 +29,7 @@ class Header extends React.Component {
 		return (
 			<div class="page-header">
 				<div class="page-header-image">
-					<div class="container" style={paddingAround}>
+					<div class="container sm-padding-top" style={paddingAround}>
 						<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
 						<h1 class="h1-seo">Coffee Shop</h1>
 							<h3>

@@ -27,6 +27,8 @@ div {
 	text-transform: uppercase;
 	font-weight: 300;
 }
-.justify-left {
-
+@media only screen and (max-width: 600px) {
+  .sm-padding-top {
+		margin-top: 10%;
+  }
 }
