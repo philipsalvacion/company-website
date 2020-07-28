@@ -6,7 +6,6 @@ import { Col, Row, Container } from 'reactstrap';
 // fontawesome icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 // React Icons
 import { Telephone, Envelope, ShopWindow } from 'react-bootstrap-icons'
