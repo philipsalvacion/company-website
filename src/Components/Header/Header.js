@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Header.css';
+import '../../Assets/CSS/colorPalette.css';
 import CoffeeLogo from '../../Assets/coffee-logo.png';
 
 import { Code } from 'react-bootstrap-icons';
@@ -31,7 +32,7 @@ class Header extends React.Component {
 				<div class="page-header-image">
 					<div class="container sm-padding-top" style={paddingAround}>
 						<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
-						<h1 class="h1-seo">Coffee Shop</h1>
+						<h1 class="h1-seo montserrat-bold"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></h1>
 							<h3>
 								A coffee shop sample design using React JS and Bootstrap 4!
 							</h3>

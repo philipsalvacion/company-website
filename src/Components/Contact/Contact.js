@@ -17,7 +17,7 @@ import './Contact.css';
 class Contact extends React.Component {
 	render() {
 		return(
-			<Container>
+			<Container style={{marginBottom: "5%"}}>
 				<Row xs="12">
 					<Col sm="4" xs="12" className="milk-chocolate social-links">
 						<h2 className="montserrat-bold">@coffeeshop</h2>

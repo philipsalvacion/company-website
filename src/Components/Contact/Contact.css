@@ -39,10 +39,10 @@
   }
 }
 .padding-left {
-	padding-left: 3%;
+	padding-left: 7%;
 }
 .border-vertical {
-	padding: 0% 2% 0%;
+	padding-left: 7%;
 	border-left: 5px solid #7F5234;
 }
 @media only screen and (max-width: 600px) {

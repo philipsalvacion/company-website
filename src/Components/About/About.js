@@ -35,13 +35,13 @@ class About extends React.Component {
 				<Container style={paddingSM}>
 					<Row xs="12" className="center-text">
 
-						<Col sm="5" xs="12">
+						<Col sm="4" xs="12">
 							<hr />
 						</Col>
-						<Col sm="2" xs="12">
+						<Col sm="4" xs="12">
 							<h3>About Us</h3>
 						</Col>
-						<Col sm="5" xs="12">
+						<Col sm="4" xs="12">
 							<hr />
 						</Col>
 					</Row>
