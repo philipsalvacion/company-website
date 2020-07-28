@@ -35,13 +35,13 @@ class About extends React.Component {
 				<Container style={paddingSM}>
 					<Row xs="12" className="center-text">
 
-						<Col sm="4" xs="3">
+						<Col sm="5" xs="12">
 							<hr />
 						</Col>
-						<Col sm="4" xs="6">
+						<Col sm="2" xs="12">
 							<h3>About Us</h3>
 						</Col>
-						<Col sm="4" xs="3">
+						<Col sm="5" xs="12">
 							<hr />
 						</Col>
 					</Row>
@@ -62,7 +62,7 @@ class About extends React.Component {
 					{/* Cards */}
 					<Row xs="4" className="center-text margin-bottom">
 						{/* Card 1 */}
-						<Col sm="3" xs="12">
+						<Col sm="3" xs="12" md="6">
 							<Card style={borderColor} className="card-margin-bottom">
 				        <CardImg top width="100%" src={image1} alt="Card image cap" />
 				        <CardBody>
@@ -76,7 +76,7 @@ class About extends React.Component {
 				        </CardBody>
 				      </Card>
 						</Col>
-						<Col sm="3" xs="12">
+						<Col sm="3" xs="12" md="6">
 							{/* Card 2 */}
 							<Card style={borderColor} className="card-margin-bottom">
 				        <CardImg top width="100%" src={image2} alt="Card image cap" />
@@ -91,7 +91,7 @@ class About extends React.Component {
 				        </CardBody>
 				      </Card>
 						</Col>
-						<Col sm="3" xs="12">
+						<Col sm="3" xs="12" md="6">
 							{/* Card 3 */}
 							<Card style={borderColor} className="card-margin-bottom">
 				        <CardImg top width="100%" src={image3} alt="Card image cap" />
@@ -106,7 +106,7 @@ class About extends React.Component {
 				        </CardBody>
 				      </Card>
 						</Col>
-						<Col sm="3" xs="12">
+						<Col sm="3" xs="12" md="6">
 							{/* Card 4 */}
 							<Card style={borderColor} className="card-margin-bottom">
 				        <CardImg top width="100%" src={image4} alt="Card image cap" />
@@ -138,7 +138,7 @@ class About extends React.Component {
 								<Col sm="9" xs="12" className="owner">
 									<h4 className="montserrat-bold" style={{marginBottom: "0%"}}>John Doe</h4>
 									<i>Coffee shop owner</i>
-									<p style={{marginTop: "3%"}}>
+									<p style={{marginTop: "2%"}}>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta, mauris eget rutrum porttitor, nibh diam aliquam nibh, a pellentesque eros nibh ut turpis. Maecenas eget sagittis sem. Fusce mauris arcu, lacinia sit amet malesuada id, laoreet vel diam.
 									</p>
 								</Col>
@@ -153,8 +153,8 @@ class About extends React.Component {
 								</Col>
 								<Col sm="9" xs="12" className="owner">
 									<h4 className="montserrat-bold" style={{marginBottom: "0%"}}>Joanah Doe</h4>
-								<i>Barista</i>
-									<p style={{marginTop: "3%"}}>
+									<i>Barista</i>
+									<p style={{marginTop: "2%"}}>
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta, mauris eget rutrum porttitor, nibh diam aliquam nibh, a pellentesque eros nibh ut turpis. Maecenas eget sagittis sem. Fusce mauris arcu, lacinia sit amet malesuada id, laoreet vel diam.
 									</p>
 								</Col>
