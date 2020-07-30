@@ -20,37 +20,21 @@ const MainNavbar = (props) => {
 
 	const toggle = () => setIsOpen(!isOpen);
 
-	// const [navBackground, setNavBackground] = useState(false)
-  // const navRef = useRef()
-  // navRef.current = navBackground
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const show = window.scrollY > 670
-  //     if (navRef.current !== show) {
-  //       setNavBackground(show)
-  //     }
-  //   }
-  //   document.addEventListener('scroll', handleScroll)
-  //   return () => {
-  //     document.removeEventListener('scroll', handleScroll)
-  //   }
-  // }, [])
-
 	return (
 		<div>
-			<Navbar fixed="top" light expand="md">
-				<NavbarBrand className="montserrat-bold" href="#Home"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></NavbarBrand>
+			<Navbar className="brown-onscroll" fixed="top" light expand="md">
+				<NavbarBrand className="montserrat-bold" href="#Home"><span className="milk-chocolate coffee">Coffee</span> <span className="dark-gold shop">Shop</span></NavbarBrand>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="mr-auto navbar-transparent" navbar pills>
 							<NavItem>
-								<NavLink href="#About">About Us</NavLink>
+								<NavLink className="navlink" href="#About">About Us</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href="#Contact">Contact</NavLink>
+								<NavLink className="navlink" href="#Contact">Contact</NavLink>
 							</NavItem>
 					</Nav>
-					<NavbarText>Products</NavbarText>
+					{/* <NavbarText>Products</NavbarText> */}
 				</Collapse>
 			</Navbar>
 		</div>
