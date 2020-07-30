@@ -28,20 +28,22 @@ const paddingAround = {
 class Header extends React.Component {
 	render(){
 		return (
-			<div class="page-header">
-				<div class="page-header-image">
-					<div class="container sm-padding-top" style={paddingAround}>
-						<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
-						<h1 class="h1-seo montserrat-bold"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></h1>
-							<h3>
-								A coffee shop sample design using React JS and Bootstrap 4!
-							</h3>
+			<section id="Home">
+				<div class="page-header">
+					<div class="page-header-image">
+						<div class="container sm-padding-top" style={paddingAround}>
+							<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
+							<h1 class="h1-seo montserrat-bold"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></h1>
+								<h3>
+									A coffee shop sample design using React JS and Bootstrap 4!
+								</h3>
+						</div>
+					</div>
+					<div className="center-text">
+						<h6>Designed and Coded by <Code size={30} style={{fontWeight: "150%"}} /> Philip Salvacion</h6>
 					</div>
 				</div>
-				<div className="center-text">
-					<h6>Designed and Coded by <Code size={30} style={{fontWeight: "150%"}} /> Philip Salvacion</h6>
-				</div>
-			</div>
+			</section>
 		);
 	}
 }

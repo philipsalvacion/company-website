@@ -5,6 +5,7 @@
 	color: #000;
 	position: relative;
 	overflow: hidden;
+	margin-top: 5%;
 }
 .page-header .container {
 	height: 100%;
@@ -43,4 +44,4 @@ div {
 .montserrat-bold {
 	font-family: 'Montserrat';
 	font-weight: 700;
-}	
+}
