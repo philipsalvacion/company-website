@@ -6,11 +6,10 @@ import {
 	NavbarBrand,
 	Nav,
 	NavItem,
-	NavLink,
-	NavbarText
+	NavLink
 } from 'reactstrap';
 
-import ScrollspyNav from "react-scrollspy-nav";
+// import ScrollspyNav from "react-scrollspy-nav";
 
 // Custom css
 import '../../Assets/CSS/colorPalette.css';
