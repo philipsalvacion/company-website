@@ -16,3 +16,11 @@ Navbar {
 .coffee-bg {
 	background-color: #7F5234;
 }
+.is-active {
+	/* color: white !important; */
+	font-weight: bold !important;
+	transition: .5s;
+}
+.home {
+	font-weight: bold;
+}

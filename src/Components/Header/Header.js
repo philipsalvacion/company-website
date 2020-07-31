@@ -29,11 +29,11 @@ class Header extends React.Component {
 	render(){
 		return (
 			<section id="Home">
-				<div class="page-header">
-					<div class="page-header-image">
-						<div class="container sm-padding-top" style={paddingAround}>
+				<div className="page-header">
+					<div className="page-header-image">
+						<div className="container sm-padding-top" style={paddingAround}>
 							<img src={CoffeeLogo} style={imageStyle} alt="Coffee logo" />
-							<h1 class="h1-seo montserrat-bold"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></h1>
+							<h1 className="h1-seo montserrat-bold"><span className="milk-chocolate">Coffee</span> <span className="dark-gold">Shop</span></h1>
 								<h3>
 									A coffee shop sample design using React JS and Bootstrap 4!
 								</h3>

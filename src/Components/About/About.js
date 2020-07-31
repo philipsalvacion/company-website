@@ -150,11 +150,11 @@ class About extends React.Component {
 							<Col sm="12" style={{padding: "0% 10% 0%", textAlign: "left", marginBottom: "3%"}}>
 								<Row xs="12">
 									<Col className="center-text" sm="3" xs="12">
-										<img className="squareImg" src={image6} alt="John Doe" />
+										<img className="squareImg" src={image6} alt="Joanah Doe" />
 									</Col>
 									<Col sm="9" xs="12" className="owner">
 										<h4 className="montserrat-bold" style={{marginBottom: "0%"}}>Joanah Doe</h4>
-										<i>Barista</i>
+										<i>Head Barista</i>
 										<p style={{marginTop: "2%"}}>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta, mauris eget rutrum porttitor, nibh diam aliquam nibh, a pellentesque eros nibh ut turpis. Maecenas eget sagittis sem. Fusce mauris arcu, lacinia sit amet malesuada id, laoreet vel diam.
 										</p>
