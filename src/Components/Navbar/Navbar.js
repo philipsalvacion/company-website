@@ -22,21 +22,20 @@ const MainNavbar = (props) => {
 	return (
 		<div>
 			<Navbar className="brown-onscroll" fixed="top" light expand="md">
-				<ScrollspyNav
-
-					scrollTargetIds={["Home", "About", "Contact"]}
-					offset={0}
-					activeNavClass="is-active"
-					scrollDuration="1000"
-					headerBackground="true"
-				>
-				<div style={{display: "inline-flex"}}>
 				<NavbarBrand className="montserrat-bold" href="#Home"><span className="milk-chocolate coffee">Coffee</span> <span className="dark-gold shop">Shop</span></NavbarBrand>
 			<NavbarToggler style={{ color: "blue" }} onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
-
+					<ScrollspyNav
+						scrollTargetIds={["Home", "About", "Contact"]}
+						offset={100}
+						activeNavClass="is-active"
+						scrollDuration="1000"
+						headerBackground="true"
+					>
 						<Nav className="mr-auto navbar-transparent" navbar pills>
-
+							<NavItem>
+								<NavLink className="navlink" href="#Home">Home</NavLink>
+							</NavItem>
 								<NavItem>
 									<NavLink className="navlink" href="#About">About Us</NavLink>
 								</NavItem>
@@ -45,11 +44,9 @@ const MainNavbar = (props) => {
 								</NavItem>
 
 						</Nav>
-
+					</ScrollspyNav>
 					{/* <NavbarText>Products</NavbarText> */}
 				</Collapse>
-				</div>
-				</ScrollspyNav>
 			</Navbar>
 		</div>
 );
