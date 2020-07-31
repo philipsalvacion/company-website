@@ -19,7 +19,7 @@ Navbar {
 .is-active {
 	/* color: white !important; */
 	font-weight: bold !important;
-	transition: .5s;
+	transition: .8s;
 }
 .home {
 	font-weight: bold;
